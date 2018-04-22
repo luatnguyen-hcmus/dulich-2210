@@ -1,0 +1,607 @@
+
+
+
+@font-face{
+    font-family: pa;src:url(../font/Myriad/Cabin-Bold.otf);
+}
+@font-face{
+    font-family: pt;src: url(../font/Myriad/Cabin-SemiBold.otf);
+}
+.row.topdes .container li.sc-selected{
+  margin-top:1px;
+}
+.row.topdes .container li.sc-selected img{
+  height:300px !important;
+}
+.sc-content-container{
+  display: none;
+}
+#footers .container ul li a{
+    color:white;
+}
+#footers .container #info-hotel p{
+  line-height: 20px;
+  color: white !important;
+}
+#footers .container #info-hotel p a{
+  color: white !important;
+}
+#addresss p,#addresss a{
+  color: white !important;
+}
+
+.navbar-inverse{
+  background-color: #ffab1d !important;
+
+}
+.navbar-header h1{
+    color:#fff !important;
+    padding-left:20px;
+  }
+
+
+
+
+@media (min-width: 1300px){
+    #square-image-carousel{
+      width : 1364px !important;
+    }
+      .topdes h2{
+          font-size: 50px !important;
+      }
+      .navbar-inverse{
+          background-color: #ffab1d !important;
+          width: 1360px !important;
+          margin-left: -67px !important;
+
+      }
+      #navbar-sub ul li i{
+        color: #fff !important;
+      }
+      .navbar-inverse .container h1{
+        color: #fff !important;
+      }
+      .smart-carousel-wrapper .smart-carousel-container{
+          /*float:left !important;*/
+          margin-left:-33px !important;
+      }
+        #navbar-main-container{
+          width:1350px !important;
+        }
+        
+        .smart-carousel.square-image .smart-carousel-container li img{
+            padding: 0 !important; 
+            margin-left: -25px !important;
+        }
+        .row.topdes{
+            width: 1310px !important;
+            margin-top:0 !important;
+            
+            
+        }
+        .row.topdes .container {
+          width: 1375px !important;
+          margin-left: -90px !important;
+          padding: 0 0 0 20px !important;
+
+        }
+        .row.topdes .container{
+            margin-top: -110px !important;
+        }
+        .row.topdes h2{
+          width: 1370px !important;
+          margin-left: -76px !important;
+        }
+        .row.topdes .container li{
+          padding:0 70px !important;
+        }
+        .row.topdes .container li.sc-selected{
+          margin-left: -20px !important;
+        }
+
+        .smart-carousel .sc-nav-button.sc-next{
+            display:none !important;
+        }
+
+        .smart-carousel .sc-nav-button.sc-prev{
+            display:none !important;
+        }
+        .flex-nav-prev{
+          display: none !important;
+        }
+        .flex-nav-next{
+          display: none !important;
+        }
+        #videoss{
+          position: absolute !important;
+          right:-50px !important;
+          width:685px !important;
+        }
+        #tourss{
+          margin-left:-75px !important;
+          width: 55% !important;
+        }
+        #footers{
+            width: 1340px !important;
+            margin: 0 auto !important;
+        }
+        #footers .container{
+          width: 1345px !important;
+          margin-left:-4px !important;
+        }
+        .title-h1{
+            border:none !important;
+        }
+
+       
+    }
+@media (min-width: 992px){
+    #HomeSlide {
+      width:109% !important;
+      margin-left:-58px;
+      padding: 0;
+    }
+}
+
+@media (max-width: 1300px){
+  #HomeSlide{
+    width:974px !important;
+    margin-left:-20px;
+  }
+}
+@media (max-width: 1024px){
+  .sub-nav{
+    width: 107%;
+    margin-left: -20px !important;
+  }
+  .slides{
+    width: 535px;
+  }
+  .ul-hightlight{
+    width: 468px;
+  }
+  .container{
+    width:100% !important;
+  }   
+  #HomeSlide{
+    height:350px !important;
+    width:1052px !important;
+    margin-left :-20px !important;
+  }
+  .rsOverflow.grab-cursor{
+    height: 350px !important; 
+    width:100% !important;
+  }
+
+  .topdes h2{
+    margin-top:-20px;
+    width: 109%;
+    margin-left: -40px;
+  }
+  
+
+  #footers iframe{
+    width:240px !important;
+  }
+  #footers{
+    width:1050px !important; 
+
+  }
+   #travels{
+    margin-top: -20px !important;
+  }
+  #square-image-carousel{
+      margin-top:-100px !important;
+      width: 1050px;
+      margin-left:-40px !important;
+  }
+  .row.topdes .container li{
+      margin-left: -70px !important;
+  }
+  .col-lg-9{
+    margin-bottom:80px !important;
+  }
+}
+
+
+@media (max-width:768px){
+  .regular .col-md-3{
+    width:150%;
+    margin-left: -30px;
+
+  }
+  .regular .col-md-3 img{
+    height:500px;
+  }
+
+  .regular .col-md-7 h3{
+    width:150%;
+    font-size:30px;
+
+  }
+  .regular .col-md-2 p{
+    width:150%;
+    font-size:30px;
+
+  }
+  .regular .col-md-2 .div-book a{
+    
+    font-size:30px;
+
+  }
+
+  .sub-nav{
+    width: 144%;
+    margin-left: -20px;
+  }
+  .navbar-form{
+    margin-left: 150px !important;
+  }
+  #MainMenu ul li a{
+    font-size:14px;
+  }
+  
+  .container{
+    width:100% !important;
+  }
+  .row.topdes .container li.sc-selected img{
+      margin-top:-30px;
+  }
+  
+   #HomeSlide{
+    height:300px !important;
+    width:1048px !important;
+    margin-left: -50px;
+  }
+  .rsOverflow.grab-cursor{
+    height: 100% !important; 
+    width:100% !important;
+  }
+  
+  .topdes h2{
+    margin-top:-20px !important ;
+    width: 147% !important;
+    margin-left: -40px !important;
+  }
+  
+  #travels{
+    margin-top: -20px !important;
+  }
+  #square-image-carousel{
+      margin-top:-100px !important;
+      width: 1045px !important;
+      margin-left:-39px !important;
+  }
+  .row.topdes .container li{
+      margin-left: -70px !important;
+  }
+  
+  #tourss ul li{
+      float: left !important;
+      width: 510px !important;
+      margin-left:10px;
+      height:300px;
+  }
+  #tourss ul li img{
+    height:290px !important;
+  }
+  
+  #travels{
+      width: 1068px !important;
+      margin-left:-40px !important;
+  }
+
+  #travels #l-hightlight-tour{
+    width:1040px !important;
+  }
+  #travels #l-hightlight-tour ul{
+    width:1040px !important;
+    height:200px !important;
+  }
+  #travels #l-hightlight-tour ul li{
+    height:300px !important;
+  }
+  #travels #l-hightlight-tour ul li iframe{
+    height: 500px !important;
+  }
+  #slider-video{
+    padding-left:5px !important;
+    width: 1040px !important;
+  }
+/*
+  #videoss{
+    width: 760px;
+    padding-left:29px;
+  }*/
+  
+
+
+}
+@media (max-width: 480px){
+  
+  .navbar-form{
+    margin-left: 0 !important;
+  }
+  #travels #l-hightlight-tour{
+    width:350px !important;
+  }
+   #travels #l-hightlight-tour ul{
+    width:390px !important;
+  }
+  #info-hotel{
+    margin-top:250px;
+  }
+  .cards .input-group{
+    width:250px !important;
+  }
+  #title_travel{
+    margin-left:31px !important;
+  }
+  #travels h2{
+    font-size:23px !important;
+  }
+  #travels h1{
+    font-size:20px !important;
+  }
+  #travels ul li{
+    width:410px !important;
+    margin-left:-20px !important;
+   
+  }
+  #travels ul li a img{
+     height:250px !important;
+  }
+
+  #HomeSlide{
+    height:250px !important;
+    width:410px !important;
+    margin-left :0 !important;
+  }
+  .rsOverflow.grab-cursor{
+    height: 250px !important; 
+    width:100% !important;
+  }
+
+  
+  #travels{
+    width:360px !important;
+      margin-top:5px !important;
+      margin-left:-20px !important;
+  }
+  .col-lg-4{
+      margin-top:150px !important;
+  }
+  #slider-video{
+    height:560px !important;
+    width:394px !important;
+
+  }
+  #videoss{
+    width: 394px !important;
+    
+    
+  }
+  #videoss h1{
+      margin-left:60px !important;
+  }
+  #travels #videoss ul li{
+    margin-left:0px !important;
+  }
+ 
+  .flex-direction-nav .flex-next{
+    right:-10px !important;
+    display: none !important;
+
+  }
+  .flex-direction-nav .flex-prev{
+    left:-10px !important;
+    display: none !important;
+  }
+  .cards{
+     margin-top: -145px !important;
+     /*position:  absolute;*/
+  }
+  .cards .input-group{
+      width:100% !important;
+  }
+  .topdes{
+    margin-top:-70px !important;
+    
+
+  } 
+  .topdes h2{
+    margin-top:20px !important;
+    width: 111% !important;
+    margin-left: -21px !important;
+  }
+  #square-image-carousel{
+      width:490px !important;
+      margin-left:-120px !important;
+      margin-top:-100px !important;
+  }
+  #square-image-carousel ul li{
+    margin-left:-45px !important;
+    width:100% !important;
+
+  }
+
+  .smart-carousel.square-image .smart-carousel-container li img{
+    background-color:transparent;
+    border:0 !important;
+    padding: 0 !important;
+    width: 460px !important;
+  }
+
+.featured-destinations{
+     background: none !important;
+}
+  .navbar-toggle{
+     top: 18px !important;
+  }
+  .hero{
+      width: 360px !important;
+      margin-left: -20px !important;
+      top:-3px !important;
+  }
+  .navbar-collapse{
+    border-top:1px solid #fff !important;
+  }
+  .dropdown-menu li{
+    width:100% !important;
+  }
+  .navbar-wrapper .navbar-header{
+    min-height: 90px !important;
+  }
+
+  .navbar-brand{
+      width:100px !important;
+      height: 50px !important;
+  }
+  #footers{
+    width:100% !important;
+    /*margin-top:-380px !important;*/
+  }
+  #addresss{
+    margin-top:270px;
+  }
+    
+}
+
+
+@media (max-width: 380px){
+  ul.ul-hightlight li a img{
+    width:550px !important;
+    margin-left:1px !important;
+  }
+  .cards .input-group{
+    width:250px !important;
+  }
+  #title_travel{
+    width: 410px !important;
+  }
+  #travels ul li{
+    width:472px !important;
+    margin-left: -15px !important;
+  }
+
+  #square-image-carousel{
+    width: 565px !important;
+    
+  }
+  #square-image-carousel ul li{
+    margin-left:-100px !important;
+  }
+  .smart-carousel.square-image .smart-carousel-container li img{
+    width: 565px !important;
+  }
+  #HomeSlide{
+    height:200px !important;
+    width:485px !important
+  }
+  .rsOverflow.grab-cursor{
+    height: 200px !important; 
+    width:100% !important;
+  }
+  .topdes h2{
+    width: 145.5%!important;
+  }
+  #travels h2{
+    margin: 0 auto !important;
+    float: right !important;
+    width:100% !important;
+    font-size:25px !important;
+  }
+  #slider-video{
+    
+    width:470px !important;
+
+  }
+
+  #videoss{
+    width: 470px !important;
+    
+  }
+  #slider-video{
+    padding-left: 75px !important;
+  }
+  #videoss h1{
+      margin-left:40px !important;
+  }
+  #travels #l-hightlight-tour ul{
+      width: 465px !important;
+  }
+  #travels #videoss ul li{
+    margin-left:15px !important;
+  }
+  #footers{
+    width:485px !important;
+  }
+}
+@media (max-width: 360px){
+  #HomeSlide{
+    height: 200px !important;
+    width: 500px !important;
+  }
+  .rsOverflow.grab-cursor{
+    height: 200px !important;
+    width: 100% !important;
+  }
+  #travels #l-hightlight-tour ul{
+    width: 480px !important;
+  }
+#travels ul li{
+  width: 480px !important;
+  margin-left: -10px !important; 
+}
+  .topdes h2{
+      width: 157% !important;
+    }
+    #square-image-carousel{
+      width: 575px !important;
+    }
+  #slider-video{
+    padding-left: 90px !important;
+  }
+  #footers{
+    width: 495px !important;
+  }
+}
+@media (max-width: 320px){
+  #travels #l-hightlight-tour ul{
+    width: 520px !important;
+  }
+  #HomeSlide{
+    height: 200px !important;
+    width: 539px !important;
+  }
+  .rsOverflow.grab-cursor{
+    height: 200px !important;
+    width: 100% !important;
+  }
+  .topdes h2{
+    width: 155% !important;
+  }
+  .cards .input-group{
+    width:250px !important;
+  }
+  #slider-video{
+    width:500px !important;
+  }
+
+    .topdes h2{
+      width: 194% !important;
+    }
+    #videoss h1{
+      padding-left:30px;
+    }
+    #travels ul li{
+      width: 533px !important;
+    }
+    #square-image-carousel{
+      width: 640px !important;
+      margin-left: -140px !important;
+    }
+    #footers{
+      width: 540px !important;
+    }
+}
